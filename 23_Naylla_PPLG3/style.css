@@ -1,0 +1,214 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style untuk navigasi bar */
+header {
+    background-color: #58c6e7;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambah bayangan di navbar */
+  }
+
+  .logo {
+    margin-left: 20px; 
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+  }
+  
+  .logo-icon {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 5px; 
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px; 
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    color: #041364; 
+  }
+  
+
+/*Style untuk isi atau home*/
+
+.blog {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+.blog-container {
+    max-width: 700px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden; 
+    box-sizing: border-box;
+}
+/*Untuk gambar-gambar yang ada di home*/
+figure {
+    float: left;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 20%;
+    border-radius: 40px;
+    clear: right;
+}
+
+/*Untuk caption gambarnya*/
+figcaption {
+    position:relative;
+    top: 0px;
+    left: 50px;
+    font-style: italic;
+    width: 280px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 5px 10px 5px;
+}
+
+
+.blog-content {
+    clear:both;
+    text-align: center;
+    padding-top: 20px;
+   
+    
+}
+
+/*mengatur header*/
+h1 {
+    text-align: center;
+    font-size: 30px; 
+}
+
+p {
+    text-align: left;
+    font-size: 15px; /* Ukuran font */
+    font-weight: 400;
+    margin-bottom: 1rem;
+
+}
+
+/* mengatur style about/karakter */
+
+.about {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Warna Background untuk bagian karakter*/
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between; /*Mengatur elemen agar semua memiliki ruang yang sama*/
+    flex-wrap: wrap; /*mengatur supaya tidak overflow dan elemen tsb di bungkus*/
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-item {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff; /* Warna background untuk setiap gambar */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Menammbahkan bayangan */
+    transition: transform 0.2s; /* Menambahkan efek hover */
+    cursor: pointer; /* Menambahkan pointer cursor supaya terlihat interaktif */
+}
+
+.image-item:hover {
+    transform: scale(1.05); /* Memperbesar gambar jika pointer di letakkan di atas gambar  */
+}
+
+.image-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+/* Style untuk footer */
+footer {
+    background-color: #d3b57d;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  /* Mengatur konten pada footer*/
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .contact-info, .social-media {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contact-info h3, .social-media h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media ul li {
+    margin-bottom: 10px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media a i {
+    margin-right: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+ 
